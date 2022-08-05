@@ -102,6 +102,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+Desafios
 .idea
 .env
 .venv
@@ -110,6 +111,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
 
 # Spyder project settings
 .spyderproject
