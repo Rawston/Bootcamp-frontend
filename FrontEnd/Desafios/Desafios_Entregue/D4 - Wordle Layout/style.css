@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+.quadrado1 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin: 2.5px;
+}
+
+.quadrado2 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin: 2.5px;
+}
+
+.quadrado3 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin: 2.5px;
+}
+
+.quadrado4 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin: 2.5px;
+}
+
+.quadrado5 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin: 2.5px;
+}
+
+
+/* Teclado */
+
+.teclado {
+    margin: 45px;
+}
+
+.tecla {
+    width: 36px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.tec2 {
+    border: 1px solid lightgray;
+}
+
+.tec3 {
+    background-color: lightgray;
+    width: 60px;
+    border: 1px solid lightgray;
+    /* texto */
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.tec0 {
+    background-color: lightgray;
+    width: 36px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin: 1px;
+    /* texto */
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tecA {
+    background-color: rgb(214, 191, 61);
+    width: 36px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.tecL {
+    background-color: rgb(59, 212, 97);
+    width: 36px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}

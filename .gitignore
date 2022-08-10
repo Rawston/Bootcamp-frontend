@@ -102,7 +102,9 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-Desafios
+.Desafios
+.DesafiosEntregue
+.Desafio_em_desenvolvimento
 .idea
 .env
 .venv
