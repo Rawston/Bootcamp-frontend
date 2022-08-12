@@ -20,6 +20,7 @@ console.log(typeof("2222.888")) //- Number type
 
 console.log(typeof(true)) //- Boolean type
 console.log(10 > 0) // ex. - Boolean type
+console.log(!!{})
 console.log(!!"") // ex. de dupla negação - Boolean type
 
 console.log(!!"2" + "2") // Soma de String - Boolean type
@@ -27,3 +28,5 @@ console.log(!!"2" + "2") // Soma de String - Boolean type
 console.log(undefined) // - Undefined type, sem definição de valores
 console.log(null) // - Null type
 console.log(undefined == null) // - Null type
+
+console.log(Number.MAX_SAFE_INTEGER) // - BigInt type (Maior número inteiro)
