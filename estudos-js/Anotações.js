@@ -1,3 +1,6 @@
+/*DÙVIDAS
+Js-12
+*/
 /*
 Aritméticos:
 5 + 2 = 7
@@ -46,5 +49,4 @@ Incremento:
 var x = 5 
 x = x + 1 == x++
 x = X - 1 == x--
-
  */
