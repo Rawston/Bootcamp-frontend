@@ -12,5 +12,16 @@ Método do tipo String
 .indexof("S)
 .search("S") // podemos usar regex 
 */
-console.log('javaScript'.toUpperCase());
-console.log('javaScript'.toLowerCase());
+//console.log('javaScript'.toUpperCase());
+//console.log('javaScript'.toLowerCase());
+let myString = "Rawston";
+
+
+// A tentativa de atribuir um valor à propriedade .length
+// de uma string não tem efeito observável.
+
+myString.length = 5;
+console.log(myString);
+// retorna  "Rawston"
+console.log(myString.length);
+// retorna 7
