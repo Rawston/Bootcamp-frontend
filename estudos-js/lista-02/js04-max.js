@@ -8,9 +8,16 @@
  */
 
 // Entrada
-var entrada = [1,1,40]
+var ex01 = [1, 3, 5, 7, 8, 10, 3]
+var ex02 = [1, 1, 40]
+var ex03 = [40, 1, 1, 0, -10]
+var entradas = ex03;
+var maior = -999;
 
-var maior = 0
-
-
+for (let i = 0; i < entrada.length; i++) {
+    if (entrada[i] > maior) {
+        maior = entrada[i];
+    }
+}
 console.log(maior)
+    //Resolvido

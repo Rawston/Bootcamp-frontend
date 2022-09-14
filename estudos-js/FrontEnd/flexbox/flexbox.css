@@ -1,0 +1,38 @@
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  background-color: #42095d;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.letter {
+  font-size: 74px;
+  border: 6px solid #fff;
+
+  flex: 1;
+  margin: 4px;
+}
+
+.next {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 4px;
+}
+
+.mt-8 {
+  margin-top: 80px;
+}
