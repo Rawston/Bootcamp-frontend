@@ -1,0 +1,15 @@
+div {
+    width: 100px;
+    height: 100px;
+    /*display: inline-block; Coloca as div lada/lado */
+    display: inline-block;
+}
+
+#div1 {
+    background-color: rgb(141, 6, 6);
+    text-align: center;
+}
+
+#div2 {
+    background-color: teal;
+}
