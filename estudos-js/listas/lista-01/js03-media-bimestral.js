@@ -24,20 +24,65 @@
  *  EXTRA:
  *  - Como fazer para Mostrar APROVADO/REPROVADO no final (p/nota de corte = 7)
  */
+/* var nota1 = 10,
+    nota2 = 8,
+    nota3 = 9.5,
+    nota4 = 7,
+    nota5 = 10,
+    media = 0;
+
+media = (nota1 + nota2 + nota3 + nota4 + nota5) / 5;
+
+media = media.toFixed(2);
+
+console.log('Media = ' + media); */
 
 // Entrada
 var notas = [10, 8, 9.5, 7, 10]
+    //Crie um loop para percorrer todas as notas e armazene na variável total
+console.log('==> Loop percorrer');
+notas.forEach(function(item) {
+    console.log(item);
+})
+
+
+//Veja como pegar a quantidade notas através do tamanho da lista
+console.log('==> Quantidade de notas');
+console.log(notas.length);
+
 
 // Altere a expressão abaixo para calcular a média a partir do total de notas
 var media, quantidadeDeNotas
-var total = 0
+var total = 44.5;
 
 // Faça um loop para achar o total de notas
+console.log('==> Total de notas');
+var soma = notas.reduce(function(soma, i) {
+    return soma + i;
+});
+console.log(soma);
+
 
 // Veja como pegar este valor com base na entrada
 quantidadeDeNotas = 5
-media = 0    // ?
+media = 0 // ?
 
-var resultado = '👉 a média das ' + quantidadeDeNotas + ' notas do bimestre é ' + media.toFixed(1)
+
+var resultado = '👉 a média das ' + quantidadeDeNotas + ' notas do bimestre é ' + media.toFixed()
 
 console.log(resultado)
+
+
+//minha resolução
+var nota1 = 10,
+    nota2 = 8,
+    nota3 = 9.5,
+    nota4 = 7,
+    nota5 = 10,
+    media = 0;
+
+media = (nota1 + nota2 + nota3 + nota4 + nota5) / 5;
+
+media = media.toFixed(2);
+
+console.log('A Media é: = ' + media);

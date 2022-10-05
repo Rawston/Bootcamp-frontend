@@ -15,11 +15,11 @@
  */
 
 // Entrada
-var metros = 11.4
+var metros = .5;
 
 // Altere a expressão abaixo para calcular cm com base na var metros
-var cm = 100
+var cm = metros * 100;
 
 var resultado = '👉 ' + metros + ' metro(s) == ' + cm + ' centímetro(s)'
 
-console.log(resultado)
+console.log(resultado);

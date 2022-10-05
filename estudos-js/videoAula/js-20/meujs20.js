@@ -31,6 +31,6 @@ for (var i = 0; i < listaUm.length; i++) {
 } */
 
 // forEach
-listaDois.forEach(function(item) {
+listaUm.forEach(function(item) {
     console.log(item);
 })
