@@ -68,21 +68,29 @@ quantidadeDeNotas = 5
 media = 0 // ?
 
 
-var resultado = '👉 a média das ' + quantidadeDeNotas + ' notas do bimestre é ' + media.toFixed()
+var resultado = '👉 a média das ' + quantidadeDeNotas + ' notas do bimestre é ' + media.toFixed(2)
 
-console.log(resultado)
+//console.log(resultado)
 
 
 //minha resolução
-var nota1 = 10,
-    nota2 = 8,
-    nota3 = 9.5,
-    nota4 = 7,
-    nota5 = 10,
-    media = 0;
-
-media = (nota1 + nota2 + nota3 + nota4 + nota5) / 5;
-
+var notas =
+    n1 = 10,
+    n2 = 8,
+    n3 = 9.5,
+    n4 = 7,
+    n5 = 10,
+    media = 0
+media = (n1 + n2 + n3 + n4 + n5) / 5;
 media = media.toFixed(2);
 
 console.log('A Media é: = ' + media);
+
+/* function soma(n1, n2, n3, n4, n5) {
+    let soma = (n1 + n2 + n3 + n4 + n5) / 5;
+    return soma
+}
+
+let resultado = soma(10, 8, 9.5, 7, 10)
+
+console.log(resultado); */
