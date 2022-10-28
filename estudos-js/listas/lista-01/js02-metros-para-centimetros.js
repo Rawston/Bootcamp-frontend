@@ -22,4 +22,4 @@ var cm = metros * 100;
 
 var resultado = '👉 ' + metros + ' metro(s) == ' + cm + ' centímetro(s)'
 
-console.log(resultado);
+console.log(resultado); // Resolvido

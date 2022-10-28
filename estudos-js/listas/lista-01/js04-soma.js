@@ -16,10 +16,23 @@
  */
 
 // Entrada
-var n1 = 'A'
-var n2 = 40
+var n1 = 40
+var n2 = 'A'
+
+
 
 // Saída
-var resultado = '?'
+if (typeof(n1) != 'number') {
+    console.log(n1 + ' não é um número');
 
-console.log(resultado)
+    return
+}
+if (typeof(n2) != 'number') {
+    console.log(n2 + ' não é um número');
+
+    return
+}
+
+var resultado = n1 + n2;
+
+console.log(resultado) //Resolvido

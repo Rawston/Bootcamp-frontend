@@ -23,4 +23,4 @@ var idade = new Date().getFullYear() - anoNascimento
 
 var resultado = '👉 Se nasci em: ' + anoNascimento + ', Minha idade é: ' + idade
 
-console.log(resultado);
+console.log(resultado); // Resolvido

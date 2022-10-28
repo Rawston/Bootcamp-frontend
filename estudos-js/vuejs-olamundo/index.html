@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="xrefresh" content="10" />
+    <title>Olá VueJS</title>
+    <!-- Importa o JS do Framework VueJS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <h1>v-bind</h1>
+        <p>Passe o mouse
+            <strong><span v-bind:title="texto">aqui</span></strong> para ver a data de carregamento.
+        </p>
+        <h1>{{ texto }} <strong>{{ count }}</strong></h1>
+        <h2>{{ texto }} <strong>{{ count }}</strong></h2>
+        <h3>{{ texto }} <strong>{{ count }}</strong></h3>
+        <h4>{{ texto }} <strong>{{ count }}</strong></h4>
+        <h5>{{ texto }} <strong>{{ count }}</strong></h5>
+        <h6>{{ texto }} <strong>{{ count }}</strong></h6>
+        <h5>{{ texto }} <strong>{{ count }}</strong></h5>
+        <h4>{{ texto }} <strong>{{ count }}</strong></h4>
+        <h3>{{ texto }} <strong>{{ count }}</strong></h3>
+        <h2>{{ texto }} <strong>{{ count }}</strong></h2>
+        <h1>{{ texto }} <strong>{{ count }}</strong></h1>
+        <p>
+            <label for="">Texto:</label>
+            <input type="text" v-model="texto" />
+        </p>
+        <p><button v-on:click="count++">Contador: {{ count }}</button></p>
+    </div>
+    <script>
+        var app = new Vue({
+            el: "#app",
+            data: {
+                count: 0,
+                texto: "Data: " + new Date().toLocaleString(),
+            },
+        });
+    </script>
+</body>
+
+</html>

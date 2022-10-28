@@ -57,23 +57,15 @@ var total = 44.5;
 
 // Faça um loop para achar o total de notas
 console.log('==> Total de notas');
-var soma = notas.reduce(function(soma, i) {
+/* var soma = notas.reduce(function(soma, i) {
     return soma + i;
 });
 console.log(soma);
-
+ */
 
 // Veja como pegar este valor com base na entrada
-quantidadeDeNotas = 5
+quantidadeDeNotas = notas.length;
 media = 0 // ?
-
-
-var resultado = '👉 a média das ' + quantidadeDeNotas + ' notas do bimestre é ' + media.toFixed(2)
-
-//console.log(resultado)
-
-
-//minha resolução
 var notas =
     n1 = 10,
     n2 = 8,
@@ -82,15 +74,9 @@ var notas =
     n5 = 10,
     media = 0
 media = (n1 + n2 + n3 + n4 + n5) / 5;
-media = media.toFixed(2);
+// media = media.toFixed(2);
 
-console.log('A Media é: = ' + media);
 
-/* function soma(n1, n2, n3, n4, n5) {
-    let soma = (n1 + n2 + n3 + n4 + n5) / 5;
-    return soma
-}
+var resultado = '👉 a média das ' + quantidadeDeNotas + ' notas do bimestre é ' + media.toFixed(2)
 
-let resultado = soma(10, 8, 9.5, 7, 10)
-
-console.log(resultado); */
+console.log(resultado)

@@ -9,9 +9,10 @@
  */
 
 // Entrada
-var fahrenheit = 89
+var fahrenheit = 70
 
 // Altere a expressão abaixo para converter Fahrenheit em Celsius
-var celsius = 32
 
-console.log(celsius)
+var celsius = (fahrenheit - 32) / 1.8;
+
+console.log(Math.round(celsius)); // Resolvido

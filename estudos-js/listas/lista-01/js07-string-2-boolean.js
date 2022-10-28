@@ -14,13 +14,11 @@
  */
 
 // Entrada
-let entrada = "a";
+let entrada = "s";
 let verdadeiro = ["y", "yes", "s", "sim", ]
 
 
 // implemente aqui o condicional para retornar o boolean (true/false) com base na entrada
 let resultado = verdadeiro.includes(entrada.toLowerCase());
 
-console.log(resultado);
-
-//Resolvido
+console.log(resultado); //Resolvido
