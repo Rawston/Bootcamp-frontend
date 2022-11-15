@@ -16,7 +16,7 @@
  *   a lógica do programa
  */
 
-var anoNascimento = 1975;
+var anoNascimento = 1977;
 
 // Tem que pegar o ano atual usando JS e subtrair a var acima
 var idade = new Date().getFullYear() - anoNascimento
